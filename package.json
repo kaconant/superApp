@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon .bin/www"
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -16,5 +16,17 @@
   },
   "devDependencies": {
     "nodemon": "^1.17.4"
-  }
+  },
+  "description": "- DONE: Show title of each blog posts on index page - View individual blog post on it's own page - {{../}} if you want to access something outside of the file",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaconant/superApp.git"
+  },
+  "author": "krissy conant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaconant/superApp/issues"
+  },
+  "homepage": "https://github.com/kaconant/superApp#readme"
 }
